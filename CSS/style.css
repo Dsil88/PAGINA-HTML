@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #f4f4f4;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #000; /* Fondo negro para el logo */
+}
+
+.logo-img {
+    max-width: 100px; /* ajusta el tamaño según lo necesites */
+    height: auto;
+}
+
+nav {
+    background-color: #007BFF; /* Color azul para la barra de navegación */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white; /* Cambiar el color del texto a blanco */
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.content {
+    flex: 3;
+    background-color: white;
+    padding: 20px;
+    margin-right: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.content article {
+    margin-bottom: 20px;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: orange;
+    padding: 20px;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
